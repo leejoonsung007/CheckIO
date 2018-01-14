@@ -3,6 +3,7 @@ https://py.checkio.org/mission/non-unique-elements/
 '''
 
 def checkio(data):
+
     return(item for item in data if data.count(item) > 1)
 
 if __name__ == "__main__":
