@@ -4,7 +4,7 @@ def most_frequent(data):
     """
     # your code here
     highest_count = 0
-    str = ''
+    st = ''
     for string in data:
         string_count = data.count(string)
         if string_count > highest_count:
